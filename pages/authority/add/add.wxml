@@ -1,0 +1,59 @@
+<view class="index-body">
+  <view class="view-title">
+    <text class="index-title">Hello,Admin</text>
+  </view>
+  <view class="btn-container">
+    <view class="view-shop">
+    <button class='btn-shop'>Add user</button>
+    </view>
+    <view class="view-commodity">
+    <button bindtap='commodityButton' class='btn-commodity' hover-class='btn-hover'>Update&delete</button>
+    </view>
+  </view>
+  <view class="view-middle">
+  <view class="view-text">
+  <text class="lable">Username:</text>
+  <input class="input-text" bindinput="usernameInput" value="{{username}}"></input>
+  </view>
+  <view class="view-text">
+  <text class="lable">Password:</text>
+  <input class="input-text" bindinput="passwordInput" value="{{password}}" password="true"></input>
+  </view>
+  <view class="view-text">
+  <text class="lable">Phone:</text>
+  <input class="input-text" bindinput="phoneInput" value="{{phone}}"></input>
+  </view>
+  <view class="view-text">
+  <text class="lable">Nickname:</text>
+  <input class="input-text" bindinput="nicknameInput" value="{{nickname}}"></input>
+  </view>
+  <view class="view-text">
+  <text class="lable">Firstname:</text>
+  <input class="input-text" bindinput="firstnameInput" value="{{firstname}}"></input>
+  </view>
+  <view class="view-text">
+  <text class="lable">Lastname:</text>
+  <input class="input-text" bindinput="lastnameInput" value="{{lastname}}"></input>
+  </view>
+  <view class="view-text">
+  <text class="lable">Email:</text>
+  <input class="input-text" bindinput="emailInput" value="{{email}}"></input>
+  </view>
+  <view class="view-text">
+  <text class="lable">Account role:</text>
+  <picker name="picker_hx" class="input-text" value="{{pic_array[hx_index].id}}" data-selecthx="{{pic_array[hx_index].name}}" range="{{pic_array}}" range-key="{{'name'}}"  bindchange="bindPickerChange_hx"  >
+        <view class="picker" >
+         {{pic_array[hx_index].name}}
+        </view>
+         </picker>
+  <!-- <input class="input-text" bindinput="roleInput" value="{{role}}"></input> -->
+  </view>
+  </view>
+
+  <view class="view-bottom">
+        <button class='btn-bottom' bindtap='submitButton' hover-class='btn-bottom-hover' disabled="{{bottomHidden}}">Submit</button>
+  </view>
+  <view class="view-bottom-right">
+    <button class='btn-bottom-right' bindtap='cancelButton' hover-class='btn-bottom-hover-right' disabled="{{bottomHidden}}">Cancel</button>
+  </view>
+</view>

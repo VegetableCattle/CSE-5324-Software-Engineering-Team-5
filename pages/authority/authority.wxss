@@ -1,0 +1,16 @@
+/* pages/authority/authority.wxss */
+
+.index-body{
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+}
+.index-title {
+  margin-top: 200rpx;
+  font-weight:900;
+  font-size:80rpx;
+  font-family: 微软雅黑;
+  color: rgb(100, 99, 99);
+  margin-left: 9%;
+}
