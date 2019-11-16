@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index-face/index-face",
+    "pages/authority/authority",
+    "pages/authority/add/add",
+    "pages/authority/update/update",
+    "pages/inventory/scan/sacn",
+    "pages/inventory/scan-result/scan-result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Inventory management",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

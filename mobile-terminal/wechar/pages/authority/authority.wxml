@@ -1,0 +1,5 @@
+<view class="index-body">
+  <view class="view-title">
+    <text class="index-title">Hello,Admin</text>
+  </view>
+</view>

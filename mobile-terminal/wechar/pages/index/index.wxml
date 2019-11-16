@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="index-body">
+  <view class="view-title">
+    <text class="index-title">Sign in</text>
+  </view>
+  <view class="btn-container">
+    <view class="view-shop">
+    <button class='btn-shop'>password</button>
+    </view>
+    <view class="view-commodity">
+    <button bindtap='commodityButton' class='btn-commodity' hover-class='btn-hover'>face</button>
+    </view>
+  </view>
+  <view class="view-middle">
+    <view class="view-middle-top">
+      <view class="view-middle-left">
+        <input class="username" type="text" value="{{usernameInput}}" bindfocus="usernameFocus" bindinput="usernameBlur">
+        </input>
+      </view>
+    </view>
+   
+
+    <view class="view-middle-bottom">
+    <input class="password" password="{{passwordPassword}}" value="{{passwordInput}}" bindfocus="passwordFocus" bindinput="passwordBlur"> 
+        </input>
+    </view>
+  </view>
+   <view class="view-bottom">
+        <button class='btn-bottom' bindtap='confirmButton' hover-class='btn-bottom-hover' disabled="{{bottomHidden}}">Sign in</button>
+    </view>
+</view>

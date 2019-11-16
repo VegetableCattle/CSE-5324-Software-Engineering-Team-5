@@ -1,0 +1,75 @@
+<view class="index-body">
+  <view class="view-title">
+    <text class="index-title">Hello,Manager</text>
+  </view>
+  <view class="view-middle">
+  <view class="view-middle-top">
+  </view>
+    <view class="view-middle-bottom">
+      <view class="view-middle-text">
+        <view class="view-middle-text-constant">
+          goodsName：
+        </view>
+         <view class="view-middle-text-variable">
+         {{goodsName}}
+         </view>
+         <view class="view-middle-text-clear">
+        
+          </view>
+      </view>
+      <view class="view-middle-text">
+        <view class="view-middle-text-constant">
+          barcode：
+       </view>
+       <view class="view-middle-text-variable">
+        {{barcode}}
+       </view>
+       <view class="view-middle-text-clear">
+       </view>
+      </view>
+      <view class="view-middle-text">
+        <view class="view-middle-text-constant">
+          price：
+        </view>
+       <view class="view-middle-text-variable">
+        {{price}}
+       </view>
+       <view class="view-middle-text-clear">
+       </view>
+      </view>
+
+      <view class="view-middle-text">
+        <view class="view-middle-text-constant">
+          brand：
+        </view>
+       <view class="view-middle-text-variable">
+        {{brand}}
+       </view>
+       <view class="view-middle-text-clear">
+       </view>
+      </view>
+
+      <view class="view-middle-text">
+        <view class="view-middle-text-constant">
+          supplier：
+        </view>
+       <view class="view-middle-text-variable">
+        {{supplier}}
+       </view>
+       <view class="view-middle-text-clear">
+       </view>
+      </view>
+
+      <view class="view-middle-text">
+        <view class="view-middle-text-constant">
+          standard：
+        </view>
+       <view class="view-middle-text-variable">
+        {{standard}}
+       </view>
+       <view class="view-middle-text-clear">
+       </view>
+      </view>
+    </view>
+  </view>
+</view>

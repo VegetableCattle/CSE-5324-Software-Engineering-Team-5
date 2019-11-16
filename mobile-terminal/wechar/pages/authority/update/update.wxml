@@ -1,0 +1,36 @@
+<view class="index-body">
+  <view class="view-title">
+    <text class="index-title">Hello,Admin</text>
+  </view>
+  <view class="btn-container">
+    <view class="view-shop">
+    <button class='btn-shop' bindtap='shopButton' hover-class='btn-hover'>Add user</button>
+    </view>
+    <view class="view-commodity">
+    <button class='btn-commodity'>Update&delete</button>
+    </view>
+  </view>
+  <view class="view-middle">
+  <view class="view-text">
+  <text class="lable">Username:</text>
+  <input class="input-text" bindinput="usernameInput" value="{{username}}"></input>
+  </view>
+ 
+  <view class="view-text">
+  <text class="lable">Account role:</text>
+  <picker name="picker_hx" class="input-text" value="{{pic_array[hx_index].id}}" data-selecthx="{{pic_array[hx_index].name}}" range="{{pic_array}}" range-key="{{'name'}}"  bindchange="bindPickerChange_hx"  >
+        <view class="picker" >
+         {{pic_array[hx_index].name}}
+        </view>
+         </picker>
+  <!-- <input class="input-text" bindinput="roleInput" value="{{role}}"></input> -->
+  </view>
+  </view>
+
+  <view class="view-bottom">
+        <button class='btn-bottom' bindtap='updateButton' hover-class='btn-bottom-hover' disabled="{{bottomHidden}}">Update</button>
+  </view>
+  <view class="view-bottom-right">
+    <button class='btn-bottom-right' bindtap='deleteButton' hover-class='btn-bottom-hover-right' disabled="{{bottomHidden}}">Delete</button>
+  </view>
+</view>
