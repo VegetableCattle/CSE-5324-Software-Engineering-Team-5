@@ -1,0 +1,98 @@
+
+.panel {
+  margin-bottom: 10px;
+  border: 1px solid #ceddee;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  padding: 15px; }
+  .panel.no-border {
+    border: 0; }
+
+.panel-body {
+  padding: 15px 0;
+  position: relative;
+  border: 0; }
+  .panel-body h5.info {
+    margin: 10px 0 0 0; }
+  .panel-body.no-padding {
+    padding: 0; }
+
+.panel-heading {
+  position: relative;
+  padding: 0 0 10px 0;
+  border: 0;
+  background: transparent; }
+  .panel-heading h4 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center; }
+    .panel-heading h4 span {
+      font-size: 11px;
+      color: #808080;
+      font-style: italic; }
+  .panel-heading h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-weight: 500; }
+
+ul.app-downloads {
+  margin-top: 0; }
+  ul.app-downloads li {
+    margin-bottom: 5px; }
+    ul.app-downloads li .progress {
+      margin-top: 0px;
+      margin-bottom: 0; }
+    ul.app-downloads li p {
+      margin: 0; }
+      ul.app-downloads li p i {
+        margin-right: 10px; }
+      ul.app-downloads li p span {
+        float: right; }
+
+.progress {
+  background-color: #E8EFF7;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.progress-bar-danger {
+  background-color: #ff5c56;
+  box-shadow: none; }
+
+.progress-bar-success {
+  background-color: #3fcbca;
+  box-shadow: none; }
+
+.progress-bar-warning {
+  background-color: #ffcd35;
+  box-shadow: none; }
+
+.progress-bar-info {
+  background-color: #23b7e5;
+  box-shadow: none; }
+
+.progress-bar-1 {
+  background-color: #3CB371;
+  box-shadow: none; }
+  
+.progress-sm {
+  height: 6px; }
+
+.progress-md {
+  height: 10px; }
+
+.progress-xs {
+  height: 3px; }
+
+.progress-xsx {
+  height: 2px; }
+
+.progress-lg {
+  height: 15px; }
+
+.progress-rounded {
+  border-radius: 10px; }
