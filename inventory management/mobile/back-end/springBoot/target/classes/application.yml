@@ -1,0 +1,30 @@
+server:
+  port: 8761
+#  servlet:
+#    context-path: /springboot
+name: 小胖
+spring:
+  profiles:
+    active: a
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/deecamp?serverTimezone=GMT%2B8
+    username: root
+    password: 12345678
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#  server:
+#    wait-time-in-ms-when-sync-empty: 0
+#    enable-self-preservation: false
