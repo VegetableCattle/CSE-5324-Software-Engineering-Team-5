@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/storage/storage",
+    "pages/inventory/inventory",
+    "wxSearch/wxSearch",
+    "pages/outbound/outbound",
+    "pages/inventory/itemDetails/itemDetails",
+    "pages/record/record",
+    "pages/login-face/login-face",
+    "pages/authority/authority",
+    "pages/authority/add/add",
+    "pages/authority/delete/delete",
+    "pages/authority/update/update",
+    "pages/home/barcode/barcode",
+    "pages/home/result/result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Inventory management",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#efb336",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/home_press.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/home/home",
+        "text": "Index"
+      },
+      {
+        "selectedIconPath": "images/cangku_press.png",
+        "iconPath": "images/cangku.png",
+        "pagePath": "pages/inventory/inventory",
+        "text": "Inventory"
+      },
+      {
+        "selectedIconPath": "images/my_press.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/index/index",
+        "text": "Me"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

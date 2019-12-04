@@ -1,0 +1,34 @@
+<!--pages/home/home.wxml-->
+<view class="container padding_0" style='background:#eee;padding-bottom:30rpx;'>
+  <image class="banner" src='../../images/home.jpg'>
+
+  </image>
+  <view class="home_list" style='background:#fff'>
+  
+    <navigator class='area' url="../storage/storage" hover-class="navigator-hover">
+      <image mode="widthFix" src='../../images/add.png'    />
+
+      <text>Storage</text>
+    </navigator>
+
+    <!-- <navigator class='area'  url="../outbound/outbound" hover-class="navigator-hover">
+      <image mode="widthFix" src='../../images/cangku.png'   />
+      <text>出库</text>
+    </navigator> -->
+    
+    <navigator class='area' url="../record/record" hover-class="navigator-hover">
+      <image mode="widthFix" src='../../images/record.png'   />
+      <text>record</text>
+    </navigator>
+
+    <navigator class='area' url="./barcode/barcode" hover-class="navigator-hover">
+      <image mode="widthFix"  src='../../images/loding.png'  />
+      <text>barcode scan</text>
+    </navigator>
+    
+  
+  
+  </view>
+ 
+</view>
+

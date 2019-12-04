@@ -1,0 +1,40 @@
+<!--pages/inventory/itemDetails/itemDetails.wxml-->
+<view class="tab-h">
+  <view class="tab-item {{currentTab==0?'active':''}}"  data-current="0" bindtap="swichNav">Item</view>
+  <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">Stock</view>
+  <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">record</view>
+</view>
+
+<view class='content'>
+  <view class='contentInfo' wx:if="{{currentTab==0 ? true : false}}">
+    <view class='goodsInfo'>
+      <view style='flex:1;'>Brand</view><view style='flex:3;'>{{info.brand}}</view>
+    </view>
+    <view class='goodsInfo'>
+      <view style='flex:1;'>Category</view><view style='flex:3;'>{{info.category}}</view>
+    </view>
+    <view class='goodsInfo'>
+      <view style='flex:1;'>Model</view><view style='flex:3;'>{{info.model}}</view>
+    </view>
+    <view class='goodsInfo'>
+      <view style='flex:1;'>Inventory</view><view style='flex:3;'>{{infoNum}}</view>
+    </view>
+  </view>
+  <view class='inventoryInfo' wx:if="{{currentTab==1 ? true : false}}">
+    <view class='inventoryInfoItem'>
+      <view style='flex:1;border-right:2rpx #ccc solid; '>Warehouse</view><view style='flex:1;'>Inventory</view>
+    </view>
+    <view class='inventoryInfoItem' wx:for="{{list}}">
+      <view style='flex:1;border-right:2rpx #ccc solid;'>{{item.warehouse}}</view><view style='flex:1;'>{{item.num}}</view>
+    </view>
+  </view>
+
+  <view class='inventoryDetail {{index%5==0?"active":""}}' wx:if="{{currentTab==2 ? true : false}}" wx:for="{{recordList}}">
+    <view>
+    {{item}}
+    </view>
+  </view>
+
+
+</view>
+
