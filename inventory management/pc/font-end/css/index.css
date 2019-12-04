@@ -1,0 +1,64 @@
+
+.fix{*zoom:1;}
+.fix:after{display:table; content:''; clear:both;}
+
+.sy_title{
+	display:block; 
+	padding-bottom: 10%;
+	text-align: center;
+}
+.crypto-wallet-tab{
+
+}
+
+.sy_title_block_block{
+	vertical-align:top;
+	display:inline-block; 
+	vertical-align:top;
+	height: 261px;
+}
+.sy_title_block_shortage{
+	vertical-align:top;
+	display:inline-block; 
+	vertical-align:top;
+	height: 261px;
+	margin-left:10%;
+}
+.crypto-video{
+	height: 261px;
+}
+.sy_title_block{
+	margin-top:20%;
+
+	float:right;
+	margin-right:10%;
+	width:33%;
+}
+.sy_title h2{ 
+font-size:1.5rem; 
+}
+.result_text{ 
+font-size:1.5rem; 
+float:left;
+width:75%;
+}
+.result_num{ 
+font-size:1.5rem; 
+float:right;
+width:25%;
+}
+.clear_float{
+	clear:both;
+}
+
+.slidebox02{ margin-bottom: 1%; }
+.slidebox02 .swiper-slide {display: block; overflow: hidden; text-align: center; }
+
+.slidebox02 .swiper-slide i{display: block;background: #fff; min-height: 0.6rem;
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;
+	
+}
+.slidebox02 .swiper-slide img{ width: 65%;max-height: 9rem;}
+.slidebox02 .swiper-slide p{color: #000; font-size:.80rem; line-height: 150%; padding:2% 0 0; 
+	display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 1;overflow: hidden;
+}
